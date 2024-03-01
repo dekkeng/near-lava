@@ -4,8 +4,6 @@
 
 `npm install -g near-cli`
 
-`export NEAR_TESTNET_RPC=https://near-testnet.lav...เปลี่ยนเป็นของตัวเองนะ....`
-
 `near generate-key ตั้งชื่อแอค.testnet --saveImplicit` ให้สร้างมา 2 กระเป๋า แบบนี้เลย จดเลขไว้
 
 `git clone https://github.com/dekkeng/near-lava.git`
@@ -16,7 +14,9 @@
 
 `vim config.txt`
 
-แก้ไขเลขเป๋า 1 2 ให้เป็นเลขของตัวเอง
+แก้ไข RPC URL จาก LAVA
+
+แก้ไขเลขเป๋า 1 2 ให้เป็นเลขของตัวเอง หรือโอนเข้าตัวเอง ให้ใส่เป๋าเดียวกันทั้ง 2 อันได้
 
 `chmod +x run.sh`
 
